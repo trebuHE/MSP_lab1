@@ -2927,3 +2927,1380 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Programowanie
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 21:49:14.487
 !MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.637
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.639
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.640
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.652
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.654
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.659
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_2": {"name": "freertos10_xilinx",
+"version": "1.2",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_2",
+},
+"standalone_v6_8": {"name": "standalone",
+"version": "6.8",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/lib/bsp/standalone_v6_8",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.660
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.661
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.662
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.667
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.667
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.668
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_timer_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.669
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.683
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.683
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.715
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_3": {"name": "gpio",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_1": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_3": {"name": "gpio",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_2": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_3": {"name": "gpio",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_timer_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"tmrctr_v4_5": {"name": "tmrctr",
+"version": "4.5",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/tmrctr_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_8": {"name": "cpu",
+"version": "2.8",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.717
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:00:46.718
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.361
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.364
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.364
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.369
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.369
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.371
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.371
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.373
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.373
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.385
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.386
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.387
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.446
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.463
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.463
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.465
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.465
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.466
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.478
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.480
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.481
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.494
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.494
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.495
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.526
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.528
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.528
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.540
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.540
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.542
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.542
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.543
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.543
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.545
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.546
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:01:47.571
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.749
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.751
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.752
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.754
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.754
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.755
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.755
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.775
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.776
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.777
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.778
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.779
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.820
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.822
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.822
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.837
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.838
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.839
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.840
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.840
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.852
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.853
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.854
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.891
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.893
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.893
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.895
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.895
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.897
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.897
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.916
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.917
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.919
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.920
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:03:07.921
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+!SESSION 2025-12-15 22:04:46.116 -----------------------------------------------
+eclipse.buildId=2018.3
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk
+
+!ENTRY org.eclipse.ui 2 0 2025-12-15 22:04:47.336
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-12-15 22:04:47.336
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2025-12-15 22:04:47.749
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-12-15 22:04:47.749
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.104
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.104
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.108
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.118
+!MESSAGE XSCT Command: [setws D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.228
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.228
+!MESSAGE XSCT command with result: [setws D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:52.240
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:04:53.356
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.728
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.731
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.731
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.732
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.734
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.739
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_2": {"name": "freertos10_xilinx",
+"version": "1.2",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_2",
+},
+"standalone_v6_8": {"name": "standalone",
+"version": "6.8",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/lib/bsp/standalone_v6_8",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.740
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.741
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.742
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.747
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.747
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.748
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_gpio_0 axi_gpio_1 axi_gpio_2 axi_timer_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.748
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.763
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.3",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.764
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.795
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_3": {"name": "gpio",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_1": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_3": {"name": "gpio",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_2": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_3": {"name": "gpio",
+"version": "4.3",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_timer_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"tmrctr_v4_5": {"name": "tmrctr",
+"version": "4.5",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/tmrctr_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_8": {"name": "cpu",
+"version": "2.8",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "D:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.797
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-12-15 22:11:54.798
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/Programowanie/Studia/Mikroelektroniczne_Systemy_Programowalne/lab1/lab1.sdk/lab2a_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:07.903
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:07.938
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:07.941
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.010
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.012
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.058
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.060
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.117
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.119
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.323
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.325
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.388
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.391
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.454
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.456
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.487
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.756
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.802
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.804
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.837
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.936
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.938
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:08.971
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:09.278
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:09.280
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:09.323
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:10.088
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:10.089
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:10.089
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:10.733
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:10.735
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:10.767
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:11.169
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:11.171
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:11.204
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:11.556
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-12-15 22:43:11.569
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

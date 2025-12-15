@@ -140,11 +140,6 @@ int main ()
 
 
 
-   print("Testing 5 second delay:\n\r");
-   timerDelay(5000);
-   print("Finished!\n\r");
-
-
    print("---Exiting main---\n\r");
    Xil_DCacheDisable();
    Xil_ICacheDisable();

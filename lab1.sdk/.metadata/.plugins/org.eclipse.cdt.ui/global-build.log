@@ -1,4 +1,20 @@
-21:46:08 **** Build of project lab2a_bsp ****
+22:42:47 **** Incremental Build of configuration Debug for project lab2a ****
+make all 
+make: Nothing to be done for 'all'.
+22:43:07 **** Clean-only build of configuration Debug for project lab2a ****
+make clean 
+rm -rf  ./src/testperiph.o ./src/xgpio_tapp_example.o ./src/xtmrctr_selftest_example.o  ./src/testperiph.d ./src/xgpio_tapp_example.d ./src/xtmrctr_selftest_example.d  lab2a.elf.size  lab2a.elf
+' '
+22:43:07 **** Clean-only build of project lab2a_bsp ****
+make -k clean 
+make -C microblaze_0/libsrc/bram_v4_2/src -s clean 
+make -C microblaze_0/libsrc/cpu_v2_8/src -s clean 
+make -C microblaze_0/libsrc/gpio_v4_3/src -s clean 
+make -C microblaze_0/libsrc/standalone_v6_8/src -s clean 
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s clean 
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s clean 
+rm -f microblaze_0/lib/libxil.a
+22:43:07 **** Build of project lab2a_bsp ****
 make -k all 
 "Running Make include in microblaze_0/libsrc/bram_v4_2/src"
 make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
@@ -35,7 +51,7 @@ make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gc
 make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
 "Compiling uartlite"
 'Finished building libraries'
-21:46:14 **** Build of configuration Debug for project lab2a ****
+22:43:11 **** Build of configuration Debug for project lab2a ****
 make all 
 'Building file: ../src/testperiph.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -60,6 +76,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../lab2a_bsp/microblaze_0/lib -mlittle-
 'Invoking: MicroBlaze Print Size'
 mb-size lab2a.elf  |tee "lab2a.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  10340	    340	   3200	  13880	   3638	lab2a.elf
+  12276	    340	   3240	  15856	   3df0	lab2a.elf
 'Finished building: lab2a.elf.size'
 ' '
+22:43:19 **** Incremental Build of configuration Debug for project lab2a ****
+make all 
+make: Nothing to be done for 'all'.

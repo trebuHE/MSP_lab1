@@ -37,7 +37,7 @@
 
 XTmrCtr TimerInstance;
 
-void timerDelay(int delay_ms) {
+void timerDelay(int  delay_ms) {
 	int status = 0;
 
 	status = XTmrCtr_Initialize(&TimerInstance, XPAR_AXI_TIMER_0_DEVICE_ID);
@@ -46,13 +46,7 @@ void timerDelay(int delay_ms) {
 		while(1);
 	}
 
-	XTmrCtr_SetOptions(&TimerInstance, 0, XTC_DOWN_COUNT_OPTION | XTC_INT_MODE_OPTION);
-	XTmrCtr_SetResetValue(&TimerInstance, 0, (XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ / 1000) * delay_ms);
-	XTmrCtr_Start(&TimerInstance, 0);
 
-	while(!XTmrCtr_IsExpired(&TimerInstance, 0));
-
-	XTmrCtr_Stop(&TimerInstance, 0);
 }
 
 int main () 
@@ -138,11 +132,6 @@ int main ()
     * because it has been selected as the STDOUT device
     */
 
-
-
-   print("Testing 5 second delay:\n\r");
-   timerDelay(5000);
-   print("Finished!\n\r");
 
 
    print("---Exiting main---\n\r");
